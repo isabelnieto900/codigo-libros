@@ -1,22 +1,20 @@
-# 📚 Organizador de Libros PDF
+#  Organizador de Libros PDF <3
 
 Herramienta para organizar y gestionar archivos PDF de libros, automatizando el renombrado y la actualización de metadatos.
 
-## 🚀 Características
+## 🩷 Características
 
-- ✅ Extracción automática de metadatos de PDFs
-- 📝 Renombrado automático con formato estándar
-- 🔄 Actualización de metadatos internos
-- 🎨 Interfaz colorida e intuitiva
-- ⚙️ Configuración flexible
+- Extracción automática de metadatos de PDFs
+- Renombrado automático con formato estándar
+- Actualización de metadatos internos
 
-## 📋 Requisitos
+## 🩷 Requisitos
 
 - Python 3.8+
 - pypdf
 - python-dotenv
 
-## 🛠️ Instalación
+## 🩷Instalación
 
 1. Clona el repositorio:
 ```bash
@@ -24,27 +22,27 @@ git clone https://github.com/tu-usuario/codigo-libros.git
 cd codigo-libros
 ```
 
-2. Crea un entorno virtual:
+2. Crear un entorno virtual:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-3. Instala las dependencias:
+3. Instalar dependencias:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configura tu ruta de libros:
+4. Configurar ruta de libros:
 ```bash
 copy .env.example .env
 ```
 Edita `.env` y pon tu ruta real:
 ```
-CARPETA_LIBROS=C:\tu\ruta\a\tus\libros
+CARPETA_LIBROS=C:\ruta\a\libros
 ```
 
-## 🎯 Uso
+## 🩷 Uso
 
 ```bash
 python -m src.main
@@ -64,10 +62,3 @@ codigo-libros/
 └── requirements.txt       # Dependencias
 ```
 
-## 🤝 Contribución
-
-1. Fork el proyecto
-2. Crea una rama para tu feature
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
