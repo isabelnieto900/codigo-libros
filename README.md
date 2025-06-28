@@ -4,7 +4,7 @@ Herramienta para organizar y gestionar archivos PDF de libros, automatizando el 
 
 ## 🩷 Características
 
-- Extracción automática de metadatos de PDFs
+- Extracción automática de metadatos de PDFs: Nombre, autor, año, edición.
 - Renombrado automático con formato estándar
 - Actualización de metadatos internos
 
@@ -16,9 +16,9 @@ Herramienta para organizar y gestionar archivos PDF de libros, automatizando el 
 
 ## 🩷Instalación
 
-1. Clona el repositorio:
+1. Clonar repositorio:
 ```bash
-git clone https://github.com/tu-usuario/codigo-libros.git
+git clone https://github.com/usuario/codigo-libros.git
 cd codigo-libros
 ```
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```bash
 copy .env.example .env
 ```
-Edita `.env` y pon tu ruta real:
+Editar la variable de entorno `.env` y poner ruta real:
 ```
 CARPETA_LIBROS=C:\ruta\a\libros
 ```
@@ -54,7 +54,7 @@ python -m src.main
 codigo-libros/
 ├── src/                    # Código fuente
 │   ├── core/              # Lógica principal
-│   ├── ui/                # Interfaz de usuario
+│   ├── ui/                # Interfaz de usuario (colorcitos y tal jeje)
 │   └── utils/             # Utilidades
 ├── config/                # Configuración
 ├── tests/                 # Pruebas
